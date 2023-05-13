@@ -31,18 +31,18 @@ h2{
     font-family: 'source sans pro',Calibri,tahoma,sans-serif;
 }
  .image-background{
-        background-image: url("C:\Users\dell\Documents\Activité 4\image\tel.png");
+        
         background-size: cover; /* ajuste la taille de l'image pour remplir la div */
         background-position: center;
-        height: 150px;
-         
-}
-.image{
-    height: 200px; 
-  }
+    
+        height: 200px;}
 
+        .image {background-position: center;
+            width: 200px;
+            height: 200px;
+        }
 h3{
-
+align-items: center;
     color: #3388bb;
     font-size: 20px;
 }
