@@ -94,6 +94,33 @@
       font-weight: bold;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    
+    .colonne {
+      margin: 10px;
+      background-color: #FF0000;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      height: 70px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 0 3px rgba(0, 0, 0, 0.1);
+}
+    .colonne:hover {
+  transform: scale(1.05);
+}
+
+.colonne h2 {
+  text-decoration: none;
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
   </style>
 </head>
 <body>
@@ -101,20 +128,23 @@
     <div class="chapitre chapitre1" onclick="redirectToPage('page1.html')">
       <a>Chapitre 1: Introduction</a>
     </div>
-    <div class="chapitre chapitre2"onclick="redirectToPage('page2.html')">
+    <div class="chapitre chapitre2" onclick="redirectToPage('page2.html')">
       <a>Chapitre 2: Les réseaux informatiques</a>
-      </div>
-      <div class="chapitre chapitre3" onclick="redirectToPage('page3.html')">
+    </div>
+    <div class="chapitre chapitre3" onclick="redirectToPage('page3.html')">
       <a>Chapitre 3: Le Modèle OSI</a>
-      </div>
-      <div class="chapitre chapitre4" onclick="redirectToPage('page4.html')">
+    </div>
+    <div class="chapitre chapitre4" onclick="redirectToPage('page4.html')">
       <a>Chapitre 4: Internet et Web</a>
-      </div>
-      <div class="chapitre chapitre5" onclick="redirectToPage('page5.html')">
+    </div>
+    <div class="chapitre chapitre5" onclick="redirectToPage('page5.html')">
       <a>Chapitre 5: Systèmes de Gestion de Version</a>
-      </div>
-      
-        </div>
-        <script src="script.js"></script>
-      </body>
-      </html>
+    </div>
+  </div>
+  <div class="colonne" onclick="redirectToPage('page6.html')">
+    <h2>Nom et Matricule des Etudiants</h2>
+   
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
